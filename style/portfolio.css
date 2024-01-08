@@ -111,6 +111,10 @@ nav a {
 }
 
 /* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about section */
 .about {
@@ -128,9 +132,32 @@ nav a {
 }
 
 .section-des {
-    color:#757575;
+    color: #757575;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+    line-height: 30px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.info-title {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.info-description {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
     line-height: 30px;
 }
